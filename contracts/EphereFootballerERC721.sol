@@ -36,12 +36,17 @@ contract EphereFootballerERC721 is
         _setupRole(PAUSER_ROLE, _msgSender());
     }
 
-    // Comentar
+    /**
+     * @notice Gets cid from token id using mapping
+     * @param _id Token id
+     */
     function getCid(uint256 _id) public view returns (string memory) {
         return _cid[_id];
     }
 
-    //Comentar
+    /**
+     * @notice Gets counter
+     */
     function getCounter() public view returns (uint256) {
         uint256 tokenId = _tokenIdTracker.current();
         return tokenId;
@@ -69,8 +74,6 @@ contract EphereFootballerERC721 is
         view
         returns (uint256[] memory)
     {
-        //uint256 lastId = _tokenIdTracker.current();
-        //require(lastId > 0, "There is no Ephere ERC 721 minted");
         uint256 erc721Cuantity = balanceOf(owner);
         uint256[] memory result = new uint256[](erc721Cuantity);
         for (uint256 i = 0; i < erc721Cuantity ; i++) {
