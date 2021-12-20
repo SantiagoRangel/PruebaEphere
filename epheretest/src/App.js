@@ -17,7 +17,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [color, setColor] = useState("#adf300");
 
-  const contractAddress = "0x8deA56eb9aaEFddb8478785064DC189Ac1F17beF";
+  const contractAddress = "";
   const contractABI = abi.abi;
 
   /**
