@@ -98,7 +98,6 @@ function App() {
 
         while (!found) {
           random = Math.floor(Math.random() * 50);
-          console.log(random);
           let player = players[random];
           if (!player.selected) {
             found = true;
@@ -297,7 +296,6 @@ function App() {
     async function checkInit() {
       let counter = await getCounter();
       counter = counter.toNumber();
-      console.log("counter ", counter);
       if (counter === 0) {
         localStorage.removeItem("players");
       }
