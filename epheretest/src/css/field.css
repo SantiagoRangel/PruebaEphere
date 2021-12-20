@@ -1,0 +1,118 @@
+
+.field{
+    width: auto;
+    height: 800px;
+    margin-left: 30px;
+}
+.fieldContainer{
+    width: 630px;
+    height: 926px;
+    background-image: url("../images/field2.jpg");
+    background-size: cover;
+    margin-left: 30px;
+}
+.bigContainer{
+    display: flex;
+}
+.zone{
+    width: auto;
+    margin: 0;
+    
+}
+
+.strikerZone {
+    height: 270px;
+   
+}
+.midfielderZone{
+
+    height: 370px;
+}
+.defenseZone {
+    height: 180px;
+}
+
+.goalkeeperZone{
+    height: 106px;
+}
+.btnContainer{
+    margin-left: 30px;
+}
+.teamButton{
+    font-size: 60pt;
+    
+    border-radius: 50%;
+    
+    box-shadow: 5px 6px 10px 3px rgba(0,0,0,.8);
+}
+.teamButton:hover{
+    cursor: pointer;
+}
+.strikerBtn{
+    margin-top: 70px;
+    color: 	#FF4500;
+    
+}
+.midBtn{
+    margin-top: 225px;
+    color: 	#7CFC00;
+}
+.defenseBtn{
+    margin-top: 215px;
+    color: 	#dcec4d;
+}
+.goalkeeperBtn{
+    margin-top: 85px;
+    color: 	#f0b536f6;
+}
+.playerIcon{
+    border-radius: 15px;
+    border: none;
+    width: auto;
+    color: #190838;
+    padding: 2px 18px 0px 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20pt;
+    box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 80%);
+
+}
+.strikerIcon{
+    background-color: #FF4500;
+    margin-top: 110px;
+}
+.midfielderIcon{
+    background-color: #7CFC00;
+    margin-top: 170px;
+}
+.defenseIcon{
+    background-color: #dcec4d;
+    margin-top: 75px;
+}
+.goalkeeperIcon{
+    background-color: #f0b536f6;
+    margin-top: 20px;
+}
+.playerZone{
+    text-align: center;
+}
+.selectContainer{
+    text-align: center;
+}
+.custom-select {
+    margin: 0 auto;
+    font-family: 'Roboto';
+    background-color: #c4b0f0;
+    font-size: 15pt;
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    padding-left: 5px;
+    box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 80%);
+    border:none;
+    outline:none;
+  }
+  
+  .score{
+    font-size: 25pt;
+    font-weight: 300;
+  }
