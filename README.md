@@ -1,7 +1,7 @@
 # PruebaEphere
 
 
-## To run project follow the following instructions:
+## To run project follow the instructions:
 1. Clone project
 2. Run command on root directory
 ```sh
