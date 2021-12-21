@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import abi from "./utils/EphereFootballerERC721.json";
 import Header from "./components/Header.js";
-import Field from "./components/TeamBuilder.js";
+import TeamBuilder from "./components/TeamBuilder.js";
 import PropagateLoader from "react-spinners/PropagateLoader";
 import MyTeam from "./components/MyTeam";
 import "./css/App.css";

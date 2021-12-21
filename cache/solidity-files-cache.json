@@ -37,8 +37,8 @@
       ]
     },
     "D:\\Documents\\PruebaEphere\\contracts\\EphereFootballerERC721.sol": {
-      "lastModificationDate": 1639953950445,
-      "contentHash": "33766e173f5b1814624a1a2b56010e25",
+      "lastModificationDate": 1640041097612,
+      "contentHash": "1e23da3b7cf944b7d608077396d456a3",
       "sourceName": "contracts/EphereFootballerERC721.sol",
       "solcConfig": {
         "version": "0.8.0",
