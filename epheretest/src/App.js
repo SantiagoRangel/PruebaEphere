@@ -38,7 +38,7 @@ function App() {
         let check = await checkMinter(account);
         !check && (await setMinter(account));
       } else {
-        alert("No authorized account found");
+        alert("Connect your metamask wallet");
       }
     } catch (error) {
       console.log(error);
@@ -343,7 +343,7 @@ function App() {
         <PropagateLoader color={color} loading={loading} size={30} />
       </div>
       <MyTeam mint={mint} players={accountPlayers}></MyTeam>
-      <Field players={accountPlayers}></Field>
+      <TeamBuilder players={accountPlayers} account={currentAccount}></TeamBuilder>
     </div>
   );
 }

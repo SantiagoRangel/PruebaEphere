@@ -4,7 +4,7 @@ import "../css/field.css";
 
 const BASE_IPFS_URL = "https://ipfs.ephere.io/ipfs/";
 
-export default function Field(props) {
+export default function TeamBuilder(props) {
   const [strikers, setStrikers] = useState([]);
   const [midfielders, setMidfielders] = useState([]);
   const [defense, setDefense] = useState([]);
@@ -45,6 +45,22 @@ export default function Field(props) {
     }
   }, [props.players]);
 
+  /**
+   * When disconneced, resets state
+   */
+  useEffect(() =>{
+    if(props.account === ''){
+      setAttackScore(0);
+      setDefenseScore(0);
+      setPassingScore(0);
+      setPlayers([]);
+      setStrikers([]);
+      setMidfielders([]);
+      setDefense([]);
+      setGoalKepeer("");
+
+    }
+  }, [props.account])
   /**
    * When players arrays updates, scores are updated as well
    */
