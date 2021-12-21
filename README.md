@@ -22,7 +22,7 @@ npx hardhat run .\scripts\sample-script.js --network testnet
 npm install
 ```
 10. Go to the epheretest\src folder and open App.js. Modify the contractAddress constant with the address saved from step 8
-11. Run 
+11. Run from epheretest folder
 ```sh
 npm start
 ```
